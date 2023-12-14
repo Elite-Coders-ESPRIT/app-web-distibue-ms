@@ -10,6 +10,7 @@ import java.util.List;
 
 @RequestMapping("/universite")
 @RestController
+@CrossOrigin(origins = "*")
 public class UniversiteRestAPI {
     @Autowired
     UniversiteServiceImpl universiteService;

@@ -10,7 +10,6 @@ import java.util.List;
 
 @RequestMapping("/chambre")
 @RestController
-
 public class ChambreRestAPI {
     @Autowired
     ChambreService chambreService;

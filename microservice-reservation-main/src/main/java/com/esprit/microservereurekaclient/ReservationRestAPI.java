@@ -5,10 +5,11 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
-
 import java.util.List;
-@CrossOrigin(origins = " *")
+
+@CrossOrigin(origins = "*")
 @RestController
+@RequestMapping("/reservation")
 public class ReservationRestAPI {
 
     private String hello = "Hello I'm An Reservation";
