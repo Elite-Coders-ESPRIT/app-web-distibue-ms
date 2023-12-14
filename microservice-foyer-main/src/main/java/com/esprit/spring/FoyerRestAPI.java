@@ -32,4 +32,5 @@ public class FoyerRestAPI {
     void deleteFoyer(@PathVariable Long id) {
         foyerService.deleteFoyer(id);
     }
+
 }
